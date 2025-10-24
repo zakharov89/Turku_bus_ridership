@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2e3ed3f2a0b07aa0e06f10ec7938d5e6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2e3ed3f2a0b07aa0e06f10ec7938d5e6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2e3ed3f2a0b07aa0e06f10ec7938d5e6 = L.map(
+                "map_2e3ed3f2a0b07aa0e06f10ec7938d5e6",
+                {
+                    center: [60.454256799999996, 22.266220200000003],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_38f7d42f99f587c7f608a0addca3befb = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_44fcf4fdb041c36b740341507b9d151c = L.circleMarker(
+                [60.4509, 22.26624],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_a7994bd5fbe8e93d60b05d4337e8de57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9db9e044c8098c9a7f07432751a2ace7 = $(`<div id="html_9db9e044c8098c9a7f07432751a2ace7" style="width: 100.0%; height: 100.0%;">Kauppatori D3: 432252 rides</div>`)[0];
+                popup_a7994bd5fbe8e93d60b05d4337e8de57.setContent(html_9db9e044c8098c9a7f07432751a2ace7);
+            
+        
+
+        circle_marker_44fcf4fdb041c36b740341507b9d151c.bindPopup(popup_a7994bd5fbe8e93d60b05d4337e8de57)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_319ebcfc6f016ac886c24f8263400556 = L.circleMarker(
+                [60.45104, 22.26635],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.49261773224878, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_2e0429ecedfe2bca53138d86615fa8b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf211680952aa653507fc789b728f7d5 = $(`<div id="html_cf211680952aa653507fc789b728f7d5" style="width: 100.0%; height: 100.0%;">Kauppatori A3: 420709 rides</div>`)[0];
+                popup_2e0429ecedfe2bca53138d86615fa8b3.setContent(html_cf211680952aa653507fc789b728f7d5);
+            
+        
+
+        circle_marker_319ebcfc6f016ac886c24f8263400556.bindPopup(popup_2e0429ecedfe2bca53138d86615fa8b3)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_e98b04408677899f847aa0cf9bd305b5 = L.circleMarker(
+                [60.45168, 22.26546],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.413409307533566, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_c921571fe9e8207056eba662d004a8ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1bcf53bd564846d846c01091dbff1998 = $(`<div id="html_1bcf53bd564846d846c01091dbff1998" style="width: 100.0%; height: 100.0%;">Kauppatori A1: 418907 rides</div>`)[0];
+                popup_c921571fe9e8207056eba662d004a8ba.setContent(html_1bcf53bd564846d846c01091dbff1998);
+            
+        
+
+        circle_marker_e98b04408677899f847aa0cf9bd305b5.bindPopup(popup_c921571fe9e8207056eba662d004a8ba)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_661ab4c82ea419f8b1d0ede14de72b6b = L.circleMarker(
+                [60.45152, 22.26534],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.024360789539436, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_19f67a5ce74b6b63452b6a5497c6777f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91be6638392b03e3a8095a42e3aaab8f = $(`<div id="html_91be6638392b03e3a8095a42e3aaab8f" style="width: 100.0%; height: 100.0%;">Kauppatori D1: 387306 rides</div>`)[0];
+                popup_19f67a5ce74b6b63452b6a5497c6777f.setContent(html_91be6638392b03e3a8095a42e3aaab8f);
+            
+        
+
+        circle_marker_661ab4c82ea419f8b1d0ede14de72b6b.bindPopup(popup_19f67a5ce74b6b63452b6a5497c6777f)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_bf4be3df2de91ab894d6e29b5cc21808 = L.circleMarker(
+                [60.45085, 22.26681],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.26612253962966, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_8ba8ae17fe63811b480584e00c67bbe4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d2d9f7ba9a9722ed0cef78d9f3a4f046 = $(`<div id="html_d2d9f7ba9a9722ed0cef78d9f3a4f046" style="width: 100.0%; height: 100.0%;">Kauppatori A4: 370056 rides</div>`)[0];
+                popup_8ba8ae17fe63811b480584e00c67bbe4.setContent(html_d2d9f7ba9a9722ed0cef78d9f3a4f046);
+            
+        
+
+        circle_marker_bf4be3df2de91ab894d6e29b5cc21808.bindPopup(popup_8ba8ae17fe63811b480584e00c67bbe4)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_959608bfd7ad7bdde58e75b28ccd07af = L.circleMarker(
+                [60.45085, 22.26712],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.41715943477416, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_c0431c1cfce10311db71e7799af82641 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f64c3516a36d5412b501620bfa07622b = $(`<div id="html_f64c3516a36d5412b501620bfa07622b" style="width: 100.0%; height: 100.0%;">Kauppatori B4: 350742 rides</div>`)[0];
+                popup_c0431c1cfce10311db71e7799af82641.setContent(html_f64c3516a36d5412b501620bfa07622b);
+            
+        
+
+        circle_marker_959608bfd7ad7bdde58e75b28ccd07af.bindPopup(popup_c0431c1cfce10311db71e7799af82641)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_696f5c7bb072657a82f9bc3e5d3f35bc = L.circleMarker(
+                [60.4503, 22.26538],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.852151060029799, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_c9b515e8c522ae49e64e8da72dc5090c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9aba04ca6e5440b7f8788b15cdd1e9c = $(`<div id="html_c9aba04ca6e5440b7f8788b15cdd1e9c" style="width: 100.0%; height: 100.0%;">Kauppatori D4: 337888 rides</div>`)[0];
+                popup_c9b515e8c522ae49e64e8da72dc5090c.setContent(html_c9aba04ca6e5440b7f8788b15cdd1e9c);
+            
+        
+
+        circle_marker_696f5c7bb072657a82f9bc3e5d3f35bc.bindPopup(popup_c9b515e8c522ae49e64e8da72dc5090c)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_9ecddd31c9ebc3ad6227365ce2ebec7a = L.circleMarker(
+                [60.45134, 22.26871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.429427741225025, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_11282c8b57b9c47536e02d97c6219bc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b4e4d55e2c35c425cba7579ae67e5d0 = $(`<div id="html_4b4e4d55e2c35c425cba7579ae67e5d0" style="width: 100.0%; height: 100.0%;">Kauppatori B7: 328271 rides</div>`)[0];
+                popup_11282c8b57b9c47536e02d97c6219bc8.setContent(html_4b4e4d55e2c35c425cba7579ae67e5d0);
+            
+        
+
+        circle_marker_9ecddd31c9ebc3ad6227365ce2ebec7a.bindPopup(popup_11282c8b57b9c47536e02d97c6219bc8)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_1ebbcac8c2b378f1c45284e4dc962a6b = L.circleMarker(
+                [60.45245, 22.27209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.00164950075419, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_0180f200a47e4b6d8f62684bc0b1ddee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_526320d7e71ce4550227d70074855ce9 = $(`<div id="html_526320d7e71ce4550227d70074855ce9" style="width: 100.0%; height: 100.0%;">Brahenkatu: 318539 rides</div>`)[0];
+                popup_0180f200a47e4b6d8f62684bc0b1ddee.setContent(html_526320d7e71ce4550227d70074855ce9);
+            
+        
+
+        circle_marker_1ebbcac8c2b378f1c45284e4dc962a6b.bindPopup(popup_0180f200a47e4b6d8f62684bc0b1ddee)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_7b43bbc9b885b38dcdb49541b8b66c05 = L.circleMarker(
+                [60.45049, 22.26636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.85646798626727, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_55895974b42286454ee3251fcd534449 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7af0f4b82a7d5ba459d7ed852f215f9 = $(`<div id="html_a7af0f4b82a7d5ba459d7ed852f215f9" style="width: 100.0%; height: 100.0%;">Kauppatori C4: 292486 rides</div>`)[0];
+                popup_55895974b42286454ee3251fcd534449.setContent(html_a7af0f4b82a7d5ba459d7ed852f215f9);
+            
+        
+
+        circle_marker_7b43bbc9b885b38dcdb49541b8b66c05.bindPopup(popup_55895974b42286454ee3251fcd534449)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_b1847d319b813c42259de68ed4072762 = L.circleMarker(
+                [60.44943, 22.26292],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.66974357550688, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_05a1c82c9921b955336847fe045dfcdb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ae1edc8090b1a82db349f3febe68067 = $(`<div id="html_5ae1edc8090b1a82db349f3febe68067" style="width: 100.0%; height: 100.0%;">Kristiinankatu: 288238 rides</div>`)[0];
+                popup_05a1c82c9921b955336847fe045dfcdb.setContent(html_5ae1edc8090b1a82db349f3febe68067);
+            
+        
+
+        circle_marker_b1847d319b813c42259de68ed4072762.bindPopup(popup_05a1c82c9921b955336847fe045dfcdb)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_692b1e3be48612bad15ec06abed1b075 = L.circleMarker(
+                [60.45118, 22.26823],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.456469837039505, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_00bd7042426f20244a010df99fd5092a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c97a421e45c17c3ffd2caf025468cc4 = $(`<div id="html_4c97a421e45c17c3ffd2caf025468cc4" style="width: 100.0%; height: 100.0%;">Kauppatori B6: 283386 rides</div>`)[0];
+                popup_00bd7042426f20244a010df99fd5092a.setContent(html_4c97a421e45c17c3ffd2caf025468cc4);
+            
+        
+
+        circle_marker_692b1e3be48612bad15ec06abed1b075.bindPopup(popup_00bd7042426f20244a010df99fd5092a)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_e840eb313a73c68bde50a146b374af5c = L.circleMarker(
+                [60.45412, 22.26741],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.010933436976577, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_eb439254256dfc44e3b9332a7f53d854 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf4f2649d8c26fdbfd7036f60636d684 = $(`<div id="html_bf4f2649d8c26fdbfd7036f60636d684" style="width: 100.0%; height: 100.0%;">Puutori: 273250 rides</div>`)[0];
+                popup_eb439254256dfc44e3b9332a7f53d854.setContent(html_bf4f2649d8c26fdbfd7036f60636d684);
+            
+        
+
+        circle_marker_e840eb313a73c68bde50a146b374af5c.bindPopup(popup_eb439254256dfc44e3b9332a7f53d854)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_329f61cbf51b94cd107a08a8df35bdbe = L.circleMarker(
+                [60.45121, 22.26579],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.203948159869705, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_6c893d57ce1b1fcb861a3ef15c83b5b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8821a365d132c1335f4cf7c5fb400424 = $(`<div id="html_8821a365d132c1335f4cf7c5fb400424" style="width: 100.0%; height: 100.0%;">Kauppatori D2: 254891 rides</div>`)[0];
+                popup_6c893d57ce1b1fcb861a3ef15c83b5b5.setContent(html_8821a365d132c1335f4cf7c5fb400424);
+            
+        
+
+        circle_marker_329f61cbf51b94cd107a08a8df35bdbe.bindPopup(popup_6c893d57ce1b1fcb861a3ef15c83b5b5)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_1aa9c9f8d040fdea90a49821698d094d = L.circleMarker(
+                [60.45054, 22.26705],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.60083007134727, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_cb75607a46c78b92a56c5b6840451e46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4f75666c082e329a0743e6dba3622af4 = $(`<div id="html_4f75666c082e329a0743e6dba3622af4" style="width: 100.0%; height: 100.0%;">Kauppatori B3: 241170 rides</div>`)[0];
+                popup_cb75607a46c78b92a56c5b6840451e46.setContent(html_4f75666c082e329a0743e6dba3622af4);
+            
+        
+
+        circle_marker_1aa9c9f8d040fdea90a49821698d094d.bindPopup(popup_cb75607a46c78b92a56c5b6840451e46)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_57af18d76dc6b8fbd3ead1ae5f106957 = L.circleMarker(
+                [60.45712, 22.26913],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.480742714897792, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_25dd151723fc440c714a2a81fd3d1d9f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66106084b2802fab45ade801eb812e33 = $(`<div id="html_66106084b2802fab45ade801eb812e33" style="width: 100.0%; height: 100.0%;">Turun linja-autoasema: 238438 rides</div>`)[0];
+                popup_25dd151723fc440c714a2a81fd3d1d9f.setContent(html_66106084b2802fab45ade801eb812e33);
+            
+        
+
+        circle_marker_57af18d76dc6b8fbd3ead1ae5f106957.bindPopup(popup_25dd151723fc440c714a2a81fd3d1d9f)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_d6fb4a9815b2b688a971ceecf4fa5ac9 = L.circleMarker(
+                [60.45103, 22.26727],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.456039532494934, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_6e975044656fc6a54dc050792186571b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7edf3fbe73a1cc666c5acb2f7509056 = $(`<div id="html_b7edf3fbe73a1cc666c5acb2f7509056" style="width: 100.0%; height: 100.0%;">Kauppatori A5: 237876 rides</div>`)[0];
+                popup_6e975044656fc6a54dc050792186571b.setContent(html_b7edf3fbe73a1cc666c5acb2f7509056);
+            
+        
+
+        circle_marker_d6fb4a9815b2b688a971ceecf4fa5ac9.bindPopup(popup_6e975044656fc6a54dc050792186571b)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_31c61d18f7e86c1af8410db8b6e92d3b = L.circleMarker(
+                [60.45149, 22.27576],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.373314640533764, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_ad69ae56deaed21efb93ae36494e24e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7949ccc29abf5d646e3cc7f712fdee4a = $(`<div id="html_7949ccc29abf5d646e3cc7f712fdee4a" style="width: 100.0%; height: 100.0%;">Tuomiokirkkotori: 235994 rides</div>`)[0];
+                popup_ad69ae56deaed21efb93ae36494e24e4.setContent(html_7949ccc29abf5d646e3cc7f712fdee4a);
+            
+        
+
+        circle_marker_31c61d18f7e86c1af8410db8b6e92d3b.bindPopup(popup_ad69ae56deaed21efb93ae36494e24e4)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_06185e7e49e601ed6f358f59a0c57c98 = L.circleMarker(
+                [60.45001, 22.26876],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.364435560737718, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_595490c0ed02846e27c0f39c0cfff1cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d26eb0ab98a80e133729f65bcafe5f5f = $(`<div id="html_d26eb0ab98a80e133729f65bcafe5f5f" style="width: 100.0%; height: 100.0%;">Kauppatori E2: 235792 rides</div>`)[0];
+                popup_595490c0ed02846e27c0f39c0cfff1cf.setContent(html_d26eb0ab98a80e133729f65bcafe5f5f);
+            
+        
+
+        circle_marker_06185e7e49e601ed6f358f59a0c57c98.bindPopup(popup_595490c0ed02846e27c0f39c0cfff1cf)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_9b1f2dc07b733586139b857e51600b53 = L.circleMarker(
+                [60.45021, 22.26723],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.720878098886761, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_35974de83bd17be4c2057d899cda5fa9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5adccf7aa5644761d535ee0229b2deae = $(`<div id="html_5adccf7aa5644761d535ee0229b2deae" style="width: 100.0%; height: 100.0%;">Kauppatori C3: 221151 rides</div>`)[0];
+                popup_35974de83bd17be4c2057d899cda5fa9.setContent(html_5adccf7aa5644761d535ee0229b2deae);
+            
+        
+
+        circle_marker_9b1f2dc07b733586139b857e51600b53.bindPopup(popup_35974de83bd17be4c2057d899cda5fa9)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_3afbad63e683b1e42d1a713dc0ef8565 = L.circleMarker(
+                [60.44317, 22.35879],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.045804299343901, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_26e1440701eb6ee91a48ccf4b0abfc9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9432bc1858280fdb73f333026e49c6c = $(`<div id="html_f9432bc1858280fdb73f333026e49c6c" style="width: 100.0%; height: 100.0%;">Itäkeskus: 205793 rides</div>`)[0];
+                popup_26e1440701eb6ee91a48ccf4b0abfc9c.setContent(html_f9432bc1858280fdb73f333026e49c6c);
+            
+        
+
+        circle_marker_3afbad63e683b1e42d1a713dc0ef8565.bindPopup(popup_26e1440701eb6ee91a48ccf4b0abfc9c)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_c5fbe944a1b04e0a4fa6db9d52edb431 = L.circleMarker(
+                [60.45709, 22.26861],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.020749470216447, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_76ebf209532190a7c6ecc262f06e38d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b28a861029c57bc21c7b886280a5eea0 = $(`<div id="html_b28a861029c57bc21c7b886280a5eea0" style="width: 100.0%; height: 100.0%;">Turun linja-autoasema: 205223 rides</div>`)[0];
+                popup_76ebf209532190a7c6ecc262f06e38d2.setContent(html_b28a861029c57bc21c7b886280a5eea0);
+            
+        
+
+        circle_marker_c5fbe944a1b04e0a4fa6db9d52edb431.bindPopup(popup_76ebf209532190a7c6ecc262f06e38d2)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_98e9aca008692bd0a6cd0bac94c62e85 = L.circleMarker(
+                [60.45268, 22.27287],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.51209248308857, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_6ead67e0501f34246da819fcae254434 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_381a7279fd3f4ca70c4eea354732e879 = $(`<div id="html_381a7279fd3f4ca70c4eea354732e879" style="width: 100.0%; height: 100.0%;">Brahenkatu: 193651 rides</div>`)[0];
+                popup_6ead67e0501f34246da819fcae254434.setContent(html_381a7279fd3f4ca70c4eea354732e879);
+            
+        
+
+        circle_marker_98e9aca008692bd0a6cd0bac94c62e85.bindPopup(popup_6ead67e0501f34246da819fcae254434)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_35c05c37e9cfd45bf3d5e5d10d32139d = L.circleMarker(
+                [60.45022, 22.26949],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.823612152170494, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_6dc6b1d85a13a2334ec58cdda97b3bd3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f16e6e2903def4e75341e80cc2cd98b = $(`<div id="html_7f16e6e2903def4e75341e80cc2cd98b" style="width: 100.0%; height: 100.0%;">Kauppatori E3: 177988 rides</div>`)[0];
+                popup_6dc6b1d85a13a2334ec58cdda97b3bd3.setContent(html_7f16e6e2903def4e75341e80cc2cd98b);
+            
+        
+
+        circle_marker_35c05c37e9cfd45bf3d5e5d10d32139d.bindPopup(popup_6dc6b1d85a13a2334ec58cdda97b3bd3)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_b914322956e857f890cb39d8da0a8001 = L.circleMarker(
+                [60.45139, 22.26828],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.369768098238989, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_23233862c451f128affe61d68c8c948e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4557fe5a7d788bf70787a398f7c4965 = $(`<div id="html_d4557fe5a7d788bf70787a398f7c4965" style="width: 100.0%; height: 100.0%;">Kauppatori A7: 167663 rides</div>`)[0];
+                popup_23233862c451f128affe61d68c8c948e.setContent(html_d4557fe5a7d788bf70787a398f7c4965);
+            
+        
+
+        circle_marker_b914322956e857f890cb39d8da0a8001.bindPopup(popup_23233862c451f128affe61d68c8c948e)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_469aaae457488ea6d04eadf5bc048d3e = L.circleMarker(
+                [60.4692, 22.02835],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.346427546893942, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_2b8b3d5678b7c4b93aae23e6db71be30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efa0d2f81586e18e856bbbb86877c3dc = $(`<div id="html_efa0d2f81586e18e856bbbb86877c3dc" style="width: 100.0%; height: 100.0%;">Naantali: 167132 rides</div>`)[0];
+                popup_2b8b3d5678b7c4b93aae23e6db71be30.setContent(html_efa0d2f81586e18e856bbbb86877c3dc);
+            
+        
+
+        circle_marker_469aaae457488ea6d04eadf5bc048d3e.bindPopup(popup_2b8b3d5678b7c4b93aae23e6db71be30)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_6875e122affbc821acd20173614d704c = L.circleMarker(
+                [60.45308, 22.28563],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.183351378362623, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_ed7d82b71c1d00c9148688790006c800 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70db749824043d7a074d17628ba365c9 = $(`<div id="html_70db749824043d7a074d17628ba365c9" style="width: 100.0%; height: 100.0%;">Yliopisto (TYKS U-sairaala): 163422 rides</div>`)[0];
+                popup_ed7d82b71c1d00c9148688790006c800.setContent(html_70db749824043d7a074d17628ba365c9);
+            
+        
+
+        circle_marker_6875e122affbc821acd20173614d704c.bindPopup(popup_ed7d82b71c1d00c9148688790006c800)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_c728fc2e354b2da26e3fcd4f0e814ae1 = L.circleMarker(
+                [60.4529, 22.2858],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.587222268491528, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_b880eda568edac0d60fc1e230a1c5d30 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d6668c6130677975dc497172cca303d = $(`<div id="html_2d6668c6130677975dc497172cca303d" style="width: 100.0%; height: 100.0%;">Yliopisto (TYKS U-sairaala): 149860 rides</div>`)[0];
+                popup_b880eda568edac0d60fc1e230a1c5d30.setContent(html_2d6668c6130677975dc497172cca303d);
+            
+        
+
+        circle_marker_c728fc2e354b2da26e3fcd4f0e814ae1.bindPopup(popup_b880eda568edac0d60fc1e230a1c5d30)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_55480a2ba0e4a67860b54b9c0dc9c372 = L.circleMarker(
+                [60.4509, 22.29464],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.391486910413369, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_af76911483a2afac15d2c7f5a7e660ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4cd0305ef407811f09186f510f7832a1 = $(`<div id="html_4cd0305ef407811f09186f510f7832a1" style="width: 100.0%; height: 100.0%;">Kupittaan asema: 145407 rides</div>`)[0];
+                popup_af76911483a2afac15d2c7f5a7e660ba.setContent(html_4cd0305ef407811f09186f510f7832a1);
+            
+        
+
+        circle_marker_55480a2ba0e4a67860b54b9c0dc9c372.bindPopup(popup_af76911483a2afac15d2c7f5a7e660ba)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_85730539a5134dbb6cd79ac919f44509 = L.circleMarker(
+                [60.45134, 22.26591],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2101690680436406, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_a9c73571dc7da97304a2a43c0168e5f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6626c3207d7fd6d46c54290f673001bc = $(`<div id="html_6626c3207d7fd6d46c54290f673001bc" style="width: 100.0%; height: 100.0%;">Kauppatori A2: 141282 rides</div>`)[0];
+                popup_a9c73571dc7da97304a2a43c0168e5f0.setContent(html_6626c3207d7fd6d46c54290f673001bc);
+            
+        
+
+        circle_marker_85730539a5134dbb6cd79ac919f44509.bindPopup(popup_a9c73571dc7da97304a2a43c0168e5f0)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_6a8e09119f5da8b2c8297a99ffde973c = L.circleMarker(
+                [60.44523, 22.35743],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.930082451903057, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_ef348049a9b6ab7fdfe195f8926171f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_209137590cd90ed5bb72dac7f0783c58 = $(`<div id="html_209137590cd90ed5bb72dac7f0783c58" style="width: 100.0%; height: 100.0%;">Varissuo: 134910 rides</div>`)[0];
+                popup_ef348049a9b6ab7fdfe195f8926171f2.setContent(html_209137590cd90ed5bb72dac7f0783c58);
+            
+        
+
+        circle_marker_6a8e09119f5da8b2c8297a99ffde973c.bindPopup(popup_ef348049a9b6ab7fdfe195f8926171f2)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_511ea61f43d2bbd96578fe0c5311f502 = L.circleMarker(
+                [60.45122, 22.2678],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.874390401895191, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_61e841958b15ae3b351a58c394b8190f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d9be13d45cd5daf4b0c8a27a067cf6c = $(`<div id="html_3d9be13d45cd5daf4b0c8a27a067cf6c" style="width: 100.0%; height: 100.0%;">Kauppatori A6: 133643 rides</div>`)[0];
+                popup_61e841958b15ae3b351a58c394b8190f.setContent(html_3d9be13d45cd5daf4b0c8a27a067cf6c);
+            
+        
+
+        circle_marker_511ea61f43d2bbd96578fe0c5311f502.bindPopup(popup_61e841958b15ae3b351a58c394b8190f)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_35a4800a45b08ec356fbfe97cb28b213 = L.circleMarker(
+                [60.4516, 22.2694],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.810874212265068, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_1075b2a46842dd8ba7f9af8ef075cd02 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86d8c3b4feb35fb0e53406d939ad7bd1 = $(`<div id="html_86d8c3b4feb35fb0e53406d939ad7bd1" style="width: 100.0%; height: 100.0%;">Kauppatori B8: 132198 rides</div>`)[0];
+                popup_1075b2a46842dd8ba7f9af8ef075cd02.setContent(html_86d8c3b4feb35fb0e53406d939ad7bd1);
+            
+        
+
+        circle_marker_35a4800a45b08ec356fbfe97cb28b213.bindPopup(popup_1075b2a46842dd8ba7f9af8ef075cd02)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_136747d65dceaac4701d0a877a859e67 = L.circleMarker(
+                [60.45391, 22.26636],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.799401737875129, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_4e391c94a4b9c06d383e086ddd920320 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85bb911632e98046ccc6ffcb2c8ed1dd = $(`<div id="html_85bb911632e98046ccc6ffcb2c8ed1dd" style="width: 100.0%; height: 100.0%;">Puutori: 131937 rides</div>`)[0];
+                popup_4e391c94a4b9c06d383e086ddd920320.setContent(html_85bb911632e98046ccc6ffcb2c8ed1dd);
+            
+        
+
+        circle_marker_136747d65dceaac4701d0a877a859e67.bindPopup(popup_4e391c94a4b9c06d383e086ddd920320)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_8880b6669c61a67e3e9285db0b0cb6ea = L.circleMarker(
+                [60.49155, 22.20036],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.751050313243201, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_7f14fb998259e079a7d95f8f746ab92f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_818fe60b5d2f776e32637100073b5d92 = $(`<div id="html_818fe60b5d2f776e32637100073b5d92" style="width: 100.0%; height: 100.0%;">Kauppakeskus Mylly: 130837 rides</div>`)[0];
+                popup_7f14fb998259e079a7d95f8f746ab92f.setContent(html_818fe60b5d2f776e32637100073b5d92);
+            
+        
+
+        circle_marker_8880b6669c61a67e3e9285db0b0cb6ea.bindPopup(popup_7f14fb998259e079a7d95f8f746ab92f)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_0b8365043ffb2deb16c64d29d8a4a9ac = L.circleMarker(
+                [60.45522, 22.29635],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3960629447637025, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_eab02d1d9c1093b27c48be093931da7a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fcc3416a39c1d68ce3faf04084da058 = $(`<div id="html_4fcc3416a39c1d68ce3faf04084da058" style="width: 100.0%; height: 100.0%;">TYKS T-sairaala: 122761 rides</div>`)[0];
+                popup_eab02d1d9c1093b27c48be093931da7a.setContent(html_4fcc3416a39c1d68ce3faf04084da058);
+            
+        
+
+        circle_marker_0b8365043ffb2deb16c64d29d8a4a9ac.bindPopup(popup_eab02d1d9c1093b27c48be093931da7a)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_c0f25ac5d524151a963733c41b705296 = L.circleMarker(
+                [60.45278, 22.27276],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3717993207665895, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_bc9ee3ec1fe8bfa6d6c569dd0f74ea8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a1b71c23adb57524862d7a49a925f91 = $(`<div id="html_8a1b71c23adb57524862d7a49a925f91" style="width: 100.0%; height: 100.0%;">Brahenkatu: 122209 rides</div>`)[0];
+                popup_bc9ee3ec1fe8bfa6d6c569dd0f74ea8e.setContent(html_8a1b71c23adb57524862d7a49a925f91);
+            
+        
+
+        circle_marker_c0f25ac5d524151a963733c41b705296.bindPopup(popup_bc9ee3ec1fe8bfa6d6c569dd0f74ea8e)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_ad071723994b9c2459b71c2c7eb3f997 = L.circleMarker(
+                [60.44332, 22.36286],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.362392770883651, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_e17d60e4ff7ad0a8790edbe9f8c2474e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0195fa5778406df6180f8765bd8047c0 = $(`<div id="html_0195fa5778406df6180f8765bd8047c0" style="width: 100.0%; height: 100.0%;">Pihkalankatu: 121995 rides</div>`)[0];
+                popup_e17d60e4ff7ad0a8790edbe9f8c2474e.setContent(html_0195fa5778406df6180f8765bd8047c0);
+            
+        
+
+        circle_marker_ad071723994b9c2459b71c2c7eb3f997.bindPopup(popup_e17d60e4ff7ad0a8790edbe9f8c2474e)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_4cedf015d33934330c15521666519461 = L.circleMarker(
+                [60.45315, 22.1259],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.358304877710225, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_051acb0a6341ee84906032082e39378a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50ecd913825a92bfc29f620ae550f5ef = $(`<div id="html_50ecd913825a92bfc29f620ae550f5ef" style="width: 100.0%; height: 100.0%;">Telakan portti: 121902 rides</div>`)[0];
+                popup_051acb0a6341ee84906032082e39378a.setContent(html_50ecd913825a92bfc29f620ae550f5ef);
+            
+        
+
+        circle_marker_4cedf015d33934330c15521666519461.bindPopup(popup_051acb0a6341ee84906032082e39378a)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_3cc2f86ac1e7686e9dd2629d6bda6c1d = L.circleMarker(
+                [60.49183, 22.26106],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.2348768773770855, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_91d3edb50fbd3b42d55a497ff2350e7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a170a18b908315173f4ffa6c483d416 = $(`<div id="html_3a170a18b908315173f4ffa6c483d416" style="width: 100.0%; height: 100.0%;">Parolanpuisto: 119094 rides</div>`)[0];
+                popup_91d3edb50fbd3b42d55a497ff2350e7b.setContent(html_3a170a18b908315173f4ffa6c483d416);
+            
+        
+
+        circle_marker_3cc2f86ac1e7686e9dd2629d6bda6c1d.bindPopup(popup_91d3edb50fbd3b42d55a497ff2350e7b)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_5d6b18d4f0e0c28f4e8721a4d72181d3 = L.circleMarker(
+                [60.48783, 22.25838],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.969955026234696, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_2434f839f833d750f284717d9ea0e48f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbede76599ac627de65e207fbb0aff3f = $(`<div id="html_bbede76599ac627de65e207fbb0aff3f" style="width: 100.0%; height: 100.0%;">Munterinkatu: 113067 rides</div>`)[0];
+                popup_2434f839f833d750f284717d9ea0e48f.setContent(html_bbede76599ac627de65e207fbb0aff3f);
+            
+        
+
+        circle_marker_5d6b18d4f0e0c28f4e8721a4d72181d3.bindPopup(popup_2434f839f833d750f284717d9ea0e48f)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_3428584c545eeffbff0938ee653a126d = L.circleMarker(
+                [60.46007, 22.28895],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.939010114470263, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_9c5415ce131d35e9ce89b4a8bb3b7e24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e45b386d6c40795eb02083d437f622a = $(`<div id="html_9e45b386d6c40795eb02083d437f622a" style="width: 100.0%; height: 100.0%;">Kongressikeskus: 112363 rides</div>`)[0];
+                popup_9c5415ce131d35e9ce89b4a8bb3b7e24.setContent(html_9e45b386d6c40795eb02083d437f622a);
+            
+        
+
+        circle_marker_3428584c545eeffbff0938ee653a126d.bindPopup(popup_9c5415ce131d35e9ce89b4a8bb3b7e24)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_dd76983cb5b71c5c8374f1adbf09222e = L.circleMarker(
+                [60.44988, 22.26769],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.691494776195367, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_3fbaf31ce9bfe10303571956fbe14710 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_895dc88ab19c5a0989c94e99e7ff65c1 = $(`<div id="html_895dc88ab19c5a0989c94e99e7ff65c1" style="width: 100.0%; height: 100.0%;">Kauppatori C2: 106732 rides</div>`)[0];
+                popup_3fbaf31ce9bfe10303571956fbe14710.setContent(html_895dc88ab19c5a0989c94e99e7ff65c1);
+            
+        
+
+        circle_marker_dd76983cb5b71c5c8374f1adbf09222e.bindPopup(popup_3fbaf31ce9bfe10303571956fbe14710)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_4cd7378374861bba58329e5a8090c854 = L.circleMarker(
+                [60.44412, 22.23272],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.637868650694502, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_0bec20bf2acdc1d09cdebd4f617c49cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e959434e7002163171aba077f85f18da = $(`<div id="html_e959434e7002163171aba077f85f18da" style="width: 100.0%; height: 100.0%;">Nosturinkatu: 105512 rides</div>`)[0];
+                popup_0bec20bf2acdc1d09cdebd4f617c49cd.setContent(html_e959434e7002163171aba077f85f18da);
+            
+        
+
+        circle_marker_4cd7378374861bba58329e5a8090c854.bindPopup(popup_0bec20bf2acdc1d09cdebd4f617c49cd)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_9e913b89fb2df9aacde5e3091eea14cb = L.circleMarker(
+                [60.45139, 22.27643],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.62498958940618, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_f3885b0ae12c81934d8ae8e3f4dda4b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b3079a77139921cd2fba4daaeb4b3331 = $(`<div id="html_b3079a77139921cd2fba4daaeb4b3331" style="width: 100.0%; height: 100.0%;">Tuomiokirkkotori: 105219 rides</div>`)[0];
+                popup_f3885b0ae12c81934d8ae8e3f4dda4b9.setContent(html_b3079a77139921cd2fba4daaeb4b3331);
+            
+        
+
+        circle_marker_9e913b89fb2df9aacde5e3091eea14cb.bindPopup(popup_f3885b0ae12c81934d8ae8e3f4dda4b9)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_e831c44026ad4d964aac6625d2ff519b = L.circleMarker(
+                [60.48627, 22.1652],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.584726039439956, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_7e6cf4b883dc467999dd778ac0cd6301 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d035611e2c7f8c3b39b0bccff25b3c4 = $(`<div id="html_8d035611e2c7f8c3b39b0bccff25b3c4" style="width: 100.0%; height: 100.0%;">Raision keskusta: 104303 rides</div>`)[0];
+                popup_7e6cf4b883dc467999dd778ac0cd6301.setContent(html_8d035611e2c7f8c3b39b0bccff25b3c4);
+            
+        
+
+        circle_marker_e831c44026ad4d964aac6625d2ff519b.bindPopup(popup_7e6cf4b883dc467999dd778ac0cd6301)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_d89cff0e38432bcf840d1b6c2b5f0fcd = L.circleMarker(
+                [60.43405, 22.22181],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.479847403829248, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_7e017a42d83f023deccfbbec45333d9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52fa358088fd2a34424556a65ab8c520 = $(`<div id="html_52fa358088fd2a34424556a65ab8c520" style="width: 100.0%; height: 100.0%;">Turun satama (Viking): 101917 rides</div>`)[0];
+                popup_7e017a42d83f023deccfbbec45333d9c.setContent(html_52fa358088fd2a34424556a65ab8c520);
+            
+        
+
+        circle_marker_d89cff0e38432bcf840d1b6c2b5f0fcd.bindPopup(popup_7e017a42d83f023deccfbbec45333d9c)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_22f21f27bfa139f949dcffa7da28a52b = L.circleMarker(
+                [60.45882, 22.32248],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.048684563634176, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_54ecbc41e4e5b5b07fa9ba138ef8f14d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36f532ffc441b317e320ff786c1bbf44 = $(`<div id="html_36f532ffc441b317e320ff786c1bbf44" style="width: 100.0%; height: 100.0%;">Hannunniittu: 92108 rides</div>`)[0];
+                popup_54ecbc41e4e5b5b07fa9ba138ef8f14d.setContent(html_36f532ffc441b317e320ff786c1bbf44);
+            
+        
+
+        circle_marker_22f21f27bfa139f949dcffa7da28a52b.bindPopup(popup_54ecbc41e4e5b5b07fa9ba138ef8f14d)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_c438a76571cfa8fec0908c1fb7db4b9d = L.circleMarker(
+                [60.44287, 22.2872],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.016201197449636, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_03560fe0768e12f911460762489741f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abde90816fe04ae9be2c3bd8ed567769 = $(`<div id="html_abde90816fe04ae9be2c3bd8ed567769" style="width: 100.0%; height: 100.0%;">Kupittaan jäähalli: 91369 rides</div>`)[0];
+                popup_03560fe0768e12f911460762489741f1.setContent(html_abde90816fe04ae9be2c3bd8ed567769);
+            
+        
+
+        circle_marker_c438a76571cfa8fec0908c1fb7db4b9d.bindPopup(popup_03560fe0768e12f911460762489741f1)
+        ;
+
+        
+    
+    
+            tile_layer_38f7d42f99f587c7f608a0addca3befb.addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+            var circle_marker_1817a0e45e87313dcdbaabac86f1ab4d = L.circleMarker(
+                [60.448, 22.36209],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.9343993781405295, "stroke": true, "weight": 3}
+            ).addTo(map_2e3ed3f2a0b07aa0e06f10ec7938d5e6);
+        
+    
+        var popup_0cada0cbfafe07f610cb3132333162ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca7061c23d4572d78bf583f6272ce5db = $(`<div id="html_ca7061c23d4572d78bf583f6272ce5db" style="width: 100.0%; height: 100.0%;">Pelttarinkatu: 89508 rides</div>`)[0];
+                popup_0cada0cbfafe07f610cb3132333162ee.setContent(html_ca7061c23d4572d78bf583f6272ce5db);
+            
+        
+
+        circle_marker_1817a0e45e87313dcdbaabac86f1ab4d.bindPopup(popup_0cada0cbfafe07f610cb3132333162ee)
+        ;
+
+        
+    
+</script>
+</html>

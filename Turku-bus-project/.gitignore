@@ -1,0 +1,20 @@
+# ---- Python cache ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+.venv311/
+
+# ---- OS / Editor files ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Misc ----
+*.log
