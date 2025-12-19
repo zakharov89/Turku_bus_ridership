@@ -2,6 +2,8 @@
 
 This project explores public transport ridership in Turku, Finland, during 2024. Using open data from *Föli* (Turku Region Public Transport), it analyzes how passenger numbers change over time and across the network — by day, month, line, and stop.
 
+Detailed analysis can be found in notebooks/exploration.ipynb
+
 
 
 ## Project Overview
